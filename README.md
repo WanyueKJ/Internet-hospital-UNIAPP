@@ -21,11 +21,11 @@
 * 可对系统进行功能定制或二次开发
 
 ### 产品介绍
-![输入图片说明](1.png)
-![输入图片说明](2.png)
-![输入图片说明](3.png)
-![输入图片说明](4.png)
-
+ ![输入图片说明](https://gitee.com/sdwanyue/internet-hospital-system/raw/master/1.png)
+ ![输入图片说明](https://gitee.com/sdwanyue/internet-hospital-system/raw/master/2.png)
+ ![输入图片说明](https://gitee.com/sdwanyue/internet-hospital-system/raw/master/3.png)
+ ![输入图片说明](https://gitee.com/sdwanyue/internet-hospital-system/raw/master/4.png)
+  
 #### 更多开源项目
 
 - 在线教育系统：[查看项目](https://gitee.com/WanYueKeJi/wanyue_education_web)
