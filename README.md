@@ -1,4 +1,4 @@
-<div align=center><img src="https://gitee.com/WanYueKeJi/wanyue-kyhospital--web/raw/master/kyhospital.png" width="590" height="212"/></div>
+<div align=center><img src="https://raw.githubusercontent.com/WanyueKJ/Internet-hospital-system/main/kyhospital-demo.png" width="590" height="212"/></div>
 
 <div align="center">
  
@@ -24,7 +24,8 @@
  
 ### 系统演示
 ### System Demonstration
-![输入图片说明](kyhospital-demo.png)
+![输入图片说明](https://raw.githubusercontent.com/WanyueKJ/Internet-hospital-system/main/kyhospital-demo.png)
+
     
 
  ### 演示地址
@@ -48,9 +49,9 @@ Wanyue Internet Hospital System deeply understands user demands and closely foll
  
  ### 功能展示
  ### Function Display
-![输入图片说明](kyhospital1.png)
-![输入图片说明](kyhospital2.png)
-![输入图片说明](kyhospital3.png)
+![输入图片说明](https://raw.githubusercontent.com/WanyueKJ/Internet-hospital-system/main/kyhospital1.png)
+![输入图片说明](https://raw.githubusercontent.com/WanyueKJ/Internet-hospital-system/main/kyhospital2.png)
+![输入图片说明](https://raw.githubusercontent.com/WanyueKJ/Internet-hospital-system/main/kyhospital3.png)
 
   ### 开源版使用须知
   ### Usage Notice for the Open Source Version
