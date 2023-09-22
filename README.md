@@ -1,4 +1,4 @@
-<div align=center><img src="https://raw.githubusercontent.com/WanyueKJ/Internet-hospital-system/main/kyhospital-demo.png" width="590" height="212"/></div>
+<div align=center><img src="https://raw.githubusercontent.com/WanyueKJ/Internet-hospital-system/main/kyhospital.png" width="590" height="212"/></div>
 
 <div align="center">
  
