@@ -1,0 +1,323 @@
+
+/* 刘海屏底部安全距离 */
+.yy-safe-bh {
+	height: calc(0rpx + constant(safe-area-inset-bottom));
+	height: calc(0rpx + env(safe-area-inset-bottom));
+}
+
+/* 1行 2行*/
+.yy-text-line {
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	white-space: normal !important;
+	-webkit-box-orient: vertical;
+}
+.yy-text-line1 {
+	-webkit-line-clamp: 1;
+}
+.yy-text-line2 {
+	-webkit-line-clamp: 2;
+}
+
+/* 首页item头部 */
+.yy-secion-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #969696;
+	padding: 30rpx 0;
+}
+.yy-secion-header .left {
+	display: flex;
+	align-items: center;
+	font-size: 35rpx;
+	font-weight: bold;
+	color: #36cf89;
+}
+.yy-secion-header .left .line {
+	width: 10rpx;
+	height: 30rpx;
+	margin-right: 8rpx;
+	background-color: #36cf89;
+	border-radius: 5rpx;
+}
+.yy-secion-header .right {
+	display: flex;
+	align-items: center;
+	color: #969696;
+	font-size: 26rpx;
+}
+
+/* 热门医生 */
+// 每行3列
+.yy-doctor-box {
+	width: 100%;
+	display: flex;
+}
+.yy-doctor-box .yy-doctor-item {
+	width: calc(33vw);
+	margin-right: 20rpx;
+}
+.yy-doctor-box .yy-doctor-item:nth-child(3n+0) {
+	margin-right: 0rpx;
+}
+.yy-doctor-box .pic-box {
+	width: 100%;
+	overflow: hidden;
+}
+.yy-doctor-box .pic-box image {
+	width: 100%;
+	height: 160rpx;
+	border-radius: 10rpx;
+}
+.yy-doctor-box .doctor-name {
+	font-size: 30rpx;
+	font-weight: bold;
+	color: #333;
+	padding: 10rpx 0;
+}
+.yy-doctor-box .doctor-des {
+	font-size: 26rpx;
+	color: #969696;
+}
+
+//每行两列
+.yy-doctor-box2 {
+	flex-wrap: wrap;
+}
+.yy-doctor-box2 .yy-doctor-item2{
+	width: calc(44.6vw);
+	margin-right: 20rpx;
+	margin-bottom: 30rpx;
+	border-radius: 10rpx;
+	box-shadow: 0px 2px 0px rgba(0,0,0,0.3),0px 0px 0px #f5f5f5 inset;
+}
+.yy-doctor-box2 .yy-doctor-item2:nth-child(2n+0) {
+	margin-right: 0rpx;
+}
+.yy-doctor-box2 .pic-box image {
+	width: 100%;
+	height: 260rpx;
+	border-radius: 10rpx;
+}
+.yy-doctor-box2 .doctor-name {
+	font-size: 30rpx;
+	font-weight: bold;
+	color: #333;
+	padding: 10rpx;
+}
+.yy-doctor-box2 .doctor-des {
+	font-size: 26rpx;
+	color: #969696;
+	padding: 0 10rpx 6rpx;
+}
+
+/* 健康科普 */
+.yy-article-box {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.yy-article-box .yy-article-item:nth-child(1) {
+	border-top: 1px solid #f5f5f5;
+}
+.yy-article-box .yy-article-item {
+	display: flex;
+	padding: 10px 0;
+	border-bottom: 1px solid #f5f5f5;
+}
+.yy-article-box .yy-article-item .pic-box { 
+	display: flex;
+	align-items: center;
+}
+.yy-article-box .yy-article-item .pic-box image {
+	width: 200rpx;
+	height: 160rpx;
+	border-radius: 10rpx;
+}
+.yy-article-box .yy-article-item .txt-box {
+	font-size: 30rpx;
+	font-weight: bold;
+	color: #333;
+	display: flex;
+	flex-direction: column;
+	// justify-content: center;
+	justify-content:space-around;
+}
+.yy-article-box .yy-article-item .pl {
+	padding-left: 20rpx;
+}
+.yy-article-box .yy-article-item .pr {
+	padding-right: 20rpx;
+}
+.yy-article-box .yy-article-item .txt-box .article-des {
+	font-size: 24rpx;
+	color: #969696;
+	margin-top: 5rpx;
+}
+
+/* 视频课堂 */
+.yy-video-box {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.yy-video-box .yy-video-item {
+	background-color: #fff;
+	width: 335rpx;
+	margin-right: 20rpx;
+	margin-bottom: 20rpx;
+	border-radius: 10rpx;
+	box-shadow: 0px 2px 0px rgba(0,0,0,0.3),0px 0px 0px #f5f5f5 inset;
+}
+.yy-video-box .yy-video-item:nth-child(2n+0) {
+	margin-right: 0rpx;
+}
+.yy-video-box .yy-video-item .top-box {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.yy-video-box .yy-video-item .top-box image {
+	width: 100%;
+	height: 335rpx;
+	border-radius: 10rpx;
+}
+//遮罩层
+.yy-video-box .yy-video-item .top-box .layerbox{
+    position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: rgba(0,0,0,0.03);
+}
+.yy-video-box .yy-video-item .top-box .layerbox .center-img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.yy-video-box .yy-video-item .top-box .layerbox .center-img .yyfont {
+	font-size: 80rpx;
+	color: #fff;
+}
+.yy-video-box .yy-video-item .top-box .layerbox .bot-time{
+	 position: absolute;
+	 bottom: 20rpx;
+	 right: 20rpx;
+	 background-color: rgba(0,0,0,0.5);
+	 border-radius: 6rpx;
+	 padding: 6rpx;
+	 color: #f5f5f5;
+	 display: flex;
+	 align-items: center;
+	 // 暂时隐藏
+	 display: none;
+}
+.yy-video-box .yy-video-item .top-box .layerbox .bot-time .yyfont {
+	color: #f5f5f5;
+	font-size: 20rpx;
+	margin-right: 3rpx;
+}
+
+.yy-video-box .yy-video-item .bot-box {
+	padding: 15rpx;
+}
+.yy-video-box .yy-video-item .bot-box .v-name {
+	font-size: 28rpx;
+}
+.yy-video-box .yy-video-item .bot-box .v-des {
+	font-size: 24rpx;
+	color: #969696;
+}
+
+/* 问诊 */
+.yy-inquiry-user-sel {
+	background-color: #fafafa;
+	width: 100%;
+	border-radius: 10rpx;
+	border: 1rpx solid #e8e8e8;
+	padding: 50rpx 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20rpx;
+}
+.yy-inquiry-user-sel .iconfont {
+	margin-bottom: 10rpx;
+}
+.yy-inquiry-user-info {
+	background-color: #fafafa;
+	width: 100%;
+	border-radius: 10rpx;
+	padding: 20rpx 20rpx 20rpx 20rpx;
+	margin-bottom: 20rpx;
+	display: flex;
+}
+.yy-inquiry-user-info .user-left {
+	width: 80rpx;
+	display: flex;
+	justify-content: flex-end;
+}
+.yy-inquiry-user-info .user-left .icon {
+	width: 80rpx;
+	height: 80rpx;
+	margin-top: 12rpx;
+	border-radius: 50rpx;
+	overflow: hidden;
+}
+.yy-inquiry-user-info .user-left image {
+	width: 100%;
+	height: 100%;
+}
+.yy-inquiry-user-info .user-right {
+	padding-left: 20rpx;
+	font-size: 28rpx;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+/*
+.yy-inquiry-user-info .user-right .del {
+	position: absolute;
+	top: -15rpx;
+	right: 0;
+	background-color: #36cf89;
+	padding: 6rpx 20rpx;
+	border-radius: 50rpx;
+	color: #fff;
+	font-size: 20rpx;
+}
+*/
+.yy-inquiry-user-info .user-right .info {
+	color: #333333;
+	font-weight: bold;
+	
+}
+.yy-inquiry-user-info .user-right .detail {
+	color: #969696;
+	margin-top: 10rpx;
+}
+.yy-inquiry-user-info .user-ctr {
+	width: 130rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.yy-inquiry-user-info .user-ctr .ctr-item{
+	height: 50rpx;
+	line-height: 50rpx;
+	background-color: #36cf89;
+	color: #fff;
+	padding: 0 15rpx;
+	border-radius: 10rpx;
+}
+.yy-inquiry-user-info .user-ctr .del {
+	background-color: #ff0000;
+}
