@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+		<title>
+			<%= htmlWebpackPlugin.options.title %>
+		</title>
+		<!-- Open Graph data -->
+		<!-- <meta property="og:title" content="Title Here" /> -->
+		<!-- <meta property="og:url" content="http://www.example.com/" /> -->
+		<!-- <meta property="og:image" content="http://example.com/image.jpg" /> -->
+		<!-- <meta property="og:description" content="Description Here" /> -->
+		<script>
+			var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS
+				.supports('top: constant(a)'))
+			document.write(
+				'<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+				(coverSupport ? ', viewport-fit=cover' : '') + '" />')
+			if (window.location.protocol == 'https:') {
+				document.write('<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">')
+			}
+		</script>
+		<link rel="stylesheet" href="<%= BASE_URL %>static/index.<%= VUE_APP_INDEX_CSS_HASH %>.css" />
+	</head>
+	<body>
+		<noscript>
+			<strong>Please enable JavaScript to continue.</strong>
+		</noscript>
+		<div id="app"></div>
+		<!-- built files will be auto injected -->
+
+		<script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<!-- uni 的 SDK -->
+		<script type="text/javascript" src="https://js.cdn.aliyun.dcloud.net.cn/dev/uni-app/uni.webview.1.5.2.js">
+		</script>
+		<script type="text/javascript">
+			// 待触发 `UniAppJSBridgeReady` 事件后，即可调用 uni 的 API。
+			setTimeout(()=>{
+				document.addEventListener('UniAppJSBridgeReady', function() {
+				
+					//缩小
+					let clickDiv = document.getElementById('uni-rtc-zoom');
+					console.log('h5响应点击xxxx')
+					console.log('h5响应点击xxxx'+clickDiv);
+					if(clickDiv){
+						clickDiv.addEventListener('click', function() {
+							console.log('h5响应点击1')
+							uni.postMessage({
+								data: {
+									type: 1,
+								}
+							});
+						});
+					}
+					
+					//放大
+					let recoveryDiv = document.getElementById('uni-rtc-recovery');
+					console.log('h5响应点击vvv')
+					console.log('h5响应点击vvv'+recoveryDiv);
+					if(recoveryDiv){
+						recoveryDiv.addEventListener('click', function() {
+							console.log('h5响应点击2')
+							uni.postMessage({
+								data: {
+									type: 2,
+								}
+							});
+						});
+					}
+				});
+			},1000);
+		</script>
+
+	</body>
+</html>

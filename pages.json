@@ -1,0 +1,300 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/shops/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"scrollIndicator": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/shops/forlist/index",
+			"style": {
+				"navigationBarTitleText": "医生列表",
+				"navigationStyle": "default",
+				"enablePullDownRefresh": true
+			}
+		},
+		
+		{
+			"path": "pages/shops/user/index",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "default"
+			}
+		},
+		
+		{
+			"path": "pages/error/index",
+			"style": {
+				"navigationBarTitleText": "网站已关闭"
+			}
+		}
+		
+		
+	],
+	"subPackages": [
+		
+		{
+			"root": "pages/webview",
+			"pages": [{
+				"path": "webview",
+				"style": {
+					"navigationBarTitleText": "",
+					"app-plus": {
+						// #ifdef APP-PLUS
+						"titleNView": {
+							"type": "default"
+						}
+						// #endif
+					}
+				}
+			}]
+		},
+		
+		
+		{
+			"root": "pages/users",
+			"name": "users",
+			"pages": [{
+					"path": "retrievePassword/index",
+					"style": {
+						"navigationBarTitleText": "忘记密码"
+					}
+				},
+				{
+					"path": "user_setting/index",
+					"style": {
+						"navigationBarTitleText": "设置"
+					}
+				},
+				
+				{
+					"path": "user_info/index",
+					"style": {
+						"navigationBarTitleText": "个人资料"
+					}
+				},
+				{
+					"path": "user_nickname/index",
+					"style": {
+						"navigationBarTitleText": "昵称"
+					}
+				},
+			
+				{
+					"path": "user_modify_phone/index",
+					"style": {
+						"navigationBarTitleText": "修改手机号"
+						
+					}
+				},
+				{
+					"path": "user_modify_pwd/index",
+					"style": {
+						"navigationBarTitleText": "修改密码"
+						
+					}
+				},
+				
+				{
+					"path": "login/index",
+					"style": {
+						"navigationBarTitleText": "登录",
+						"navigationBarBackgroundColor": "#e93323",
+						"navigationBarTextStyle": "#fff"
+						
+					}
+				},
+				
+				{
+					"path": "privacy/index",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+				}
+				
+            ]
+		},
+		
+		
+		{
+			"root": "pages/shops/subs_index",
+			"name": "subs_index",
+			"pages": [{
+					"path": "article/list",
+					"style": {
+						"navigationBarTitleText": "健康科普",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "article/detail",
+					"style": {
+						"navigationBarTitleText": "健康科普"
+					}
+				},
+				{
+					"path": "video/list",
+					"style": {
+						"navigationBarTitleText": "课堂列表",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "video/detail",
+					"style": {
+						"navigationBarTitleText": "视频课堂",
+						"enablePullDownRefresh": true
+					}
+				}
+				
+				
+			]
+		},
+		{
+			"root": "pages/shops/subs_appointment",
+			"name": "subs_appointment",
+			"pages": [
+				
+				
+				{
+					"path": "register/index",
+					"style": {
+						"navigationBarTitleText": "预约服务",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "doctorhome/index",
+					"style": {
+						"navigationBarTitleText": "医生主页"
+					}
+				},
+			
+				{
+					"path": "record/index",
+					"style": {
+						"navigationBarTitleText": "预约记录"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/shops/subs_inquiry",
+			"name": "subs_inquiry",
+			"pages": [{
+					"path": "doctor/index",
+					"style": {
+						"navigationBarTitleText": "医生主页"
+					}
+				},
+				
+				{
+					"path": "picture_text/index",
+					"style": {
+						"navigationBarTitleText": "在线问诊"
+					}
+				},
+				{
+					"path": "picture_text/inquiryPost",
+					"style": {
+						"navigationBarTitleText": "加载中"
+					}
+				},
+			
+				{
+					"path": "addpatient/index",
+					"style": {
+						"navigationBarTitleText": "添加患者"
+					}
+				},
+				{
+					"path": "record/picTextList",
+					"style": {
+						"navigationBarTitleText": "图文问诊记录",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "record/picTextDetail",
+					"style": {
+						"navigationBarTitleText": "问诊详情",
+						"enablePullDownRefresh": true
+					}
+				}
+				
+			]
+		},
+		{
+			"root": "pages/shops/subs_user",
+			"name": "subs_user",
+			"pages": [{
+					"path": "collection/index",
+					"style": {
+						"navigationBarTitleText": "我的收藏",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "follow/index",
+					"style": {
+						"navigationBarTitleText": "我的关注",
+						"enablePullDownRefresh": true
+					}
+				}
+			]
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "加载中...",
+		"navigationBarBackgroundColor": "#36cf89",
+		"backgroundColor": "#F8F8F8",
+		"titleNView": true
+			
+		
+	},
+	"tabBar": {
+		"color": "#282828",
+		"selectedColor": "#36cf89",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/shops/index/index",
+				"iconPath": "static/images/1-001.png",
+				"selectedIconPath": "static/images/1-002.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/shops/forlist/index",
+				"iconPath": "static/images/2-001.png",
+				"selectedIconPath": "static/images/2-002.png",
+				"text": "问诊"
+			},
+			
+			{
+				"pagePath": "pages/shops/user/index",
+				"iconPath": "static/images/4-001.png",
+				"selectedIconPath": "static/images/4-002.png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	},
+	"sitemapLocation": "sitemap.json"
+}
