@@ -24,7 +24,7 @@
  
 ### 系统演示
 ### System Demonstration
-![输入图片说明](https://raw.githubusercontent.com/WanyueKJ/Internet-hospital-system/main/kyhospital-demo.png)
+![输入图片说明](https://gitee.com/WanYueKeJi/wanyue-kyhospital-uniapp/raw/master/kyhospital-demo333.png)
 
     
 
