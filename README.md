@@ -68,24 +68,28 @@ Wanyue Internet Hospital System deeply understands user demands and closely foll
    * 其他合作模式不限，欢迎来撩！
    * 官网地址：[http://git.sdwanyue.com](http://git.sdwanyue.com)
                     
-      
-  ### 数据库（免费获取sql脚本）
-  ### Database (Free SQL Script Available)
-    
+  ### 联系我们（加客服经理微信、QQ和邮箱，免费获取sql脚本）
+### Contact us (add customer service manager WeChat, QQ and email, get sql script for free)
+
 <div style='height: 130px'>
-        <img class="kefu_weixin" style="float:left;" src="https://gitee.com/WanYueKeJi/wanyue_education_uniapp/raw/newone/pages/%E5%BC%A0%E7%9A%93%E5%BC%80%E6%BA%90.png" width="602" height="123"/>
-        <div style="float:left;">
+    <img class="kefu_weixin" style="float:left;" src="https://gitee.com/WanYueKeJi/wanyue_education_uniapp/raw/newone/pages/%E5%BC%A0%E7%9A%93%E5%BC%80%E6%BA%90.png" width="602" height="123"/>
+    <div style="float:left;">
             <p>QQ：2770722087</p>
-          <p>QQ群：995910672</p>
-          <p>QQ群：681418688</p>
-        </div>
+            <p>Skype:  live:1532375297</p>
+            <p>Q群：515325111</p>
+            <p>Q群：496394975</p>
+            <p>Q群：995910672【群已满】</p>
+            <p>Q群：681418688【群已满】</p>
+            <p>QQ邮箱：1532375297@qq.com</p>
     </div>
-    <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=JShAyXeoKqg2lWFEUSElxELImhjeMG4y&jump_from=webapi"><img border="0" src="https://images.gitee.com/uploads/images/2021/0317/100424_072ee536_8543696.png" alt="万岳在线教育讨论群" title="万岳在线教育讨论群"></a> 
+</div>
+<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=JShAyXeoKqg2lWFEUSElxELImhjeMG4y&jump_from=webapi"><img border="0" src="https://images.gitee.com/uploads/images/2021/0317/100424_072ee536_8543696.png" alt="万岳在线教育讨论群" title="万岳在线教育讨论群"></a> 
 
-  ###  开源交流群【加群回答请填写“GitHub医院”】
-  ###  Open Source Communication Group [Please fill in "github hospital" when answering the joining question]
-
-![输入图片说明](https://gitee.com/WanYueKeJi/wanyue_education_web/raw/master/%E4%B8%87%E5%B2%B3%E7%A7%91%E6%8A%80%E5%BC%80%E6%BA%90%E8%AE%A8%E8%AE%BA10%E7%BE%A4%E7%BE%A4%E8%81%8A%E4%BA%8C%E7%BB%B4%E7%A0%81.png)  ![输入图片说明](https://gitee.com/WanYueKeJi/wanyue_education_web/raw/master/%E4%B8%87%E5%B2%B3%E7%A7%91%E6%8A%80%E5%BC%80%E6%BA%90%E8%AE%A8%E8%AE%BA15%E7%BE%A4%E7%BE%A4%E8%81%8A%E4%BA%8C%E7%BB%B4%E7%A0%81.png)
-
-
+###  开源交流群【10群/15群已满，请选择其他群添加，加群回答请填写“GitHub医院”】
+###  Open source exchange group [Add group answer, please fill in "github hospital"]
+![展示图](https://gitee.com/WanYueKeJi/wanyue_education_web/raw/master/D35E5E82AE30FF810DE5ADA4BA1CC0F3.png)
+![展示图](https://gitee.com/WanYueKeJi/wanyue_education_web/raw/master/011D5647F81AC36847311B9AA56EB3F6.png)
+![展示图](https://gitee.com/WanYueKeJi/wanyue_education_web/raw/master/%E4%B8%87%E5%B2%B3%E7%A7%91%E6%8A%80%E5%BC%80%E6%BA%90%E8%AE%A8%E8%AE%BA10%E7%BE%A4%E7%BE%A4%E8%81%8A%E4%BA%8C%E7%BB%B4%E7%A0%81.png)
+![展示图](https://gitee.com/WanYueKeJi/wanyue_education_web/raw/master/%E4%B8%87%E5%B2%B3%E7%A7%91%E6%8A%80%E5%BC%80%E6%BA%90%E8%AE%A8%E8%AE%BA15%E7%BE%A4%E7%BE%A4%E8%81%8A%E4%BA%8C%E7%BB%B4%E7%A0%81.png)
+    
     
